@@ -15,9 +15,8 @@ public class DBConnection {
 	public DBConnection() {
 	}
 	
-	public DBConnection(Connection connection, String driverClassName, String url, String username, String password) {
+	public DBConnection(String driverClassName, String url, String username, String password) {
 		super();
-		this.connection = connection;
 		this.driverClassName = driverClassName;
 		this.url = url;
 		this.username = username;
